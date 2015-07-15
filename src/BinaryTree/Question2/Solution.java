@@ -1,3 +1,6 @@
+package BinaryTree.Question2;
+
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -29,4 +32,12 @@ public class Solution {
         return (left != null ? left : right);
 
     }
+
+    private class TreeNode {
+
+        int val;
+        TreeNode left;
+        TreeNode right;
+    }
+
 }

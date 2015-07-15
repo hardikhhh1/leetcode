@@ -10,6 +10,7 @@ package BinaryTree.Question1;
  * }
  */
 
+
 /**
  * Created by harora on 7/14/15.
  * It is assumed that both the nodes are present in the tree, if not
@@ -37,4 +38,12 @@ public class Solution {
 
       return rootNode;
     }
+
+    private class TreeNode {
+
+        int val;
+        TreeNode left;
+        TreeNode right;
+    }
+
 }
